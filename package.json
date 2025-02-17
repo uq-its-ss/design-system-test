@@ -1,0 +1,24 @@
+{
+  "name": "design-system-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test Design System",
+  "main": "index.js",
+  "repository": "https://github.com/uq-its-ss/design-system-test/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  }
+}
