@@ -39,6 +39,8 @@
   "dependencies": {
     "@uqdstest/test-pacakge-c": "^1.0.0"
   },
-  "devDependencies": {
-  }
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d5d34c81a72ec752ee9ad7cde399857fd48f87ea"
 }
