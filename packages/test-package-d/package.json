@@ -36,8 +36,5 @@
   "bugs": {
     "url": "https://github.com/uq-its-ss/design-system/issues"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "d5d34c81a72ec752ee9ad7cde399857fd48f87ea"
+  "gitHead": "04b80cf7a917f7b7892d178f4300c7444da288a3"
 }
