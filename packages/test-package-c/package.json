@@ -37,6 +37,7 @@
     "url": "https://github.com/uq-its-ss/design-system/issues"
   },
   "dependencies": {
+    "@uqdstest/test-pacakge-c": "^1.0.0"
   },
   "devDependencies": {
   }
