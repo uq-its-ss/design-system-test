@@ -1,5 +1,5 @@
 {
-  "name": "@uqdstest/test-pacakge-a",
+  "name": "@uqds/test-pacakge-a",
   "version": "1.0.0",
   "description": "A dummy package for temporary CI integration testing, do not use",
   "keywords": [
@@ -37,7 +37,7 @@
     "url": "https://github.com/uq-its-ss/design-system/issues"
   },
   "dependencies": {
-    "@uqdstest/test-pacakge-b": "^1.0.0"
+    "@uqds/test-pacakge-b": "^1.0.0"
   },
-  "gitHead": "16ac206ab46259840b3ca16776478c288fa497c0"
+  "gitHead": "3f66b4c1ae444c80d397bf68a0d0361493c6178d"
 }
