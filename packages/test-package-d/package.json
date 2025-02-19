@@ -1,11 +1,10 @@
 {
   "name": "@uqds/test-pacakge-d",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "A dummy package for temporary CI integration testing, do not use",
   "keywords": [
     "testing"
   ],
-
   "author": {
     "name": "University of Queensland",
     "email": "webservices@uq.edu.au",
