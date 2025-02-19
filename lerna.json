@@ -1,0 +1,19 @@
+{
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "allowBranch": ["main", "releases"]
+    },
+    "version": {
+      "conventionalCommits": true,
+      "allowBranch": ["main", "releases", "Adding-new-packages"],
+      "message": "chore(release):Publish"
+    }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
+}
