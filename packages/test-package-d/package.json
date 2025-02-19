@@ -5,9 +5,7 @@
   "keywords": [
     "testing"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+
   "author": {
     "name": "University of Queensland",
     "email": "webservices@uq.edu.au",
@@ -35,6 +33,5 @@
   },
   "bugs": {
     "url": "https://github.com/uq-its-ss/design-system/issues"
-  },
-  "gitHead": "3f66b4c1ae444c80d397bf68a0d0361493c6178d"
+  }
 }

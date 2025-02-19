@@ -5,9 +5,7 @@
   "keywords": [
     "testing"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+
   "author": {
     "name": "University of Queensland",
     "email": "webservices@uq.edu.au",
@@ -38,6 +36,5 @@
   },
   "dependencies": {
     "@uqds/test-pacakge-b": "^1.0.0"
-  },
-  "gitHead": "3f66b4c1ae444c80d397bf68a0d0361493c6178d"
+  }
 }
