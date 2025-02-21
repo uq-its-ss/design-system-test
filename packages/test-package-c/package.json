@@ -10,7 +10,7 @@
     "email": "webservices@uq.edu.au",
     "url": "https://uq.edu.au"
   },
-  "homepage": "https://github.com/uq-its-ss/design-system#readme",
+  "homepage": "https://github.com/uq-its-ss/design-system-test#readme",
   "license": "ISC",
   "main": "dist/js/uqds.js",
   "module": "dist/mjs/index.js",
@@ -31,7 +31,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/uq-its-ss/design-system/issues"
+    "url": "https://github.com/uq-its-ss/design-system-test/issues"
   },
   "dependencies": {
     "@uqds/test-pacakge-c": "^1.0.0"
