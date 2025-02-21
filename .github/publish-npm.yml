@@ -52,7 +52,7 @@ jobs:
           issue-title: 'Approve new release ✅'
           issue-body: >
             Please approve or deny the release of a new release.
-            [View the workflow output](https://github.com/uq-its-ss/design-system/actions/runs/${{ github.run_number }}) to confirm the version is as expected.
+            [View the workflow output](https://github.com/uq-its-ss/design-system-test/actions/runs/${{ github.run_number }}) to confirm the version is as expected.
 
           exclude-workflow-initiator-as-approver: false
 
