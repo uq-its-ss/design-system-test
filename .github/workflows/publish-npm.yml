@@ -41,9 +41,16 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"          
           npx lerna version --conventional-commits --conventional-graduate --yes --no-git-tag-version --no-push || true
-          git log --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
+          echo "### GIT LOG TRIGGERED BY PUSH ###"
+          git --no-pager log ${{ github.event.before }}..${{ github.sha }} -n 5
+          echo "### GIT LOG FORMATTED ###"
+          git log -n 5 --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
+          echo "### GIT LOG FIVE COMMITS ###"
           git --no-pager log -n 5
+          echo "### GIT STATUS ###"
           git status
+          echo "### GIT DIFF ###"
+          git diff
 
       - name: "⌛️ Wait for approval"
         uses: trstringer/manual-approval@v1
@@ -68,9 +75,16 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           npx lerna publish --conventional-commits --conventional-graduate --yes
-          git log --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
+          echo "### GIT LOG TRIGGERED BY PUSH ###"
+          git --no-pager log ${{ github.event.before }}..${{ github.sha }} -n 5
+          echo "### GIT LOG FORMATTED ###"
+          git log -n 5 --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
+          echo "### GIT LOG FIVE COMMITS ###"
           git --no-pager log -n 5
+          echo "### GIT STATUS ###"
           git status
+          echo "### GIT DIFF ###"
+          git diff
 
       - name: "🐣 Publish alpha"
         if: ${{ github.ref_name == 'main' }}
@@ -81,6 +95,13 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           npx lerna publish --conventional-commits --conventional-prerelease --dist-tag alpha --yes
-          git log --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
+          echo "### GIT LOG TRIGGERED BY PUSH ###"
+          git --no-pager log ${{ github.event.before }}..${{ github.sha }} -n 5
+          echo "### GIT LOG FORMATTED ###"
+          git log -n 5 --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
+          echo "### GIT LOG FIVE COMMITS ###"
           git --no-pager log -n 5
+          echo "### GIT STATUS ###"
           git status
+          echo "### GIT DIFF ###"
+          git diff

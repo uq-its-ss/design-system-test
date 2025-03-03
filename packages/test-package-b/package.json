@@ -1,6 +1,6 @@
 {
   "name": "@uqds/test-pacakge-b",
-  "version": "1.0.6",
+  "version": "1.0.7-alpha.0",
   "description": "A dummy package for temporary CI integration testing, do not use",
   "keywords": [
     "testing"
