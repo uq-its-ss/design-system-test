@@ -41,8 +41,10 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"          
           npx lerna version --conventional-commits --conventional-graduate --yes --no-git-tag-version --no-push || true
+          git log ${{ github.event.before }}..${{ github.sha }}
           git log --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
           git --no-pager log -n 5
+          git log ${{ github.event.base.sha }}..${{ github.sha }}
           git status
 
       - name: "⌛️ Wait for approval"
@@ -68,8 +70,10 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           npx lerna publish --conventional-commits --conventional-graduate --yes
+          git log ${{ github.event.before }}..${{ github.sha }}
           git log --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
           git --no-pager log -n 5
+          git log ${{ github.event.base.sha }}..${{ github.sha }}
           git status
 
       - name: "🐣 Publish alpha"
@@ -81,6 +85,8 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           npx lerna publish --conventional-commits --conventional-prerelease --dist-tag alpha --yes
+          git log ${{ github.event.before }}..${{ github.sha }}
           git log --pretty=format:"%Cred%h%Creset - %C(yellow)%an%Creset, %ar : %s"
           git --no-pager log -n 5
+          git log ${{ github.event.base.sha }}..${{ github.sha }}
           git status
