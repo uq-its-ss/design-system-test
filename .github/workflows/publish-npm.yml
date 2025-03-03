@@ -48,7 +48,7 @@ jobs:
           echo "### GIT LOG FIVE COMMITS ###"
           git --no-pager log -n 5
           echo "### GIT STATUS ###"
-          git status --porcelain
+          git status
           echo "### GIT DIFF ###"
           git diff
 
@@ -82,7 +82,7 @@ jobs:
           echo "### GIT LOG FIVE COMMITS ###"
           git --no-pager log -n 5
           echo "### GIT STATUS ###"
-          git status --porcelain
+          git status
           echo "### GIT DIFF ###"
           git diff
 
@@ -102,6 +102,6 @@ jobs:
           echo "### GIT LOG FIVE COMMITS ###"
           git --no-pager log -n 5
           echo "### GIT STATUS ###"
-          git status --porcelain
+          git status
           echo "### GIT DIFF ###"
           git diff
