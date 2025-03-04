@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"          
-          npx lerna changed --conventional-commits --conventional-graduate || true
+          npx lerna version --conventional-commits --conventional-graduate --yes --no-git-tag-version --no-push || true
           echo "### GIT LOG TRIGGERED BY PUSH ###"
           git --no-pager log ${{ github.event.before }}..${{ github.sha }} -n 5
           echo "### GIT LOG FORMATTED ###"
