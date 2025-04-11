@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.13-alpha.0](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-d@1.0.12...@uqds/test-pacakge-d@1.0.13-alpha.0) (2025-04-11)
+
+**Note:** Version bump only for package @uqds/test-pacakge-d
+
+
+
+
+
 ## [1.0.12](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-d@1.0.12-alpha.0...@uqds/test-pacakge-d@1.0.12) (2025-04-11)
 
 **Note:** Version bump only for package @uqds/test-pacakge-d
