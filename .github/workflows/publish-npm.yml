@@ -72,9 +72,6 @@ jobs:
           GH_TOKEN: ${{ secrets.TEST_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          echo "Clear uncommitted changes."
-          git reset --hard HEAD
-          git clean -fd
           echo "Uncommitted changes cleared."
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
