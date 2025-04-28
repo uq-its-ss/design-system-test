@@ -5,6 +5,10 @@ on:
     branches:
       - main
       - releases
+    paths-ignore:
+      - '**/package.json'
+      - '**/package-lock.json'
+      - '**/CHANGELOG.md'
 
 jobs:
   publish:
