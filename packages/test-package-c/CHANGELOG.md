@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.1](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-c@2.0.0-alpha.0...@uqds/test-pacakge-c@2.0.0-alpha.1) (2025-04-28)
+
+
+### Features
+
+* allow provided config object to extend other configs ([8d79de4](https://github.com/uq-its-ss/design-system-test/commit/8d79de415a0946e833255456b13a9c5632258ed1))
+
+
+### BREAKING CHANGES
+
+* `extends` key in config file is now used for extending other config files
+
+
+
+
+
 # [2.0.0-alpha.0](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-c@1.1.0-alpha.1...@uqds/test-pacakge-c@2.0.0-alpha.0) (2025-04-28)
 
 
