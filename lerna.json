@@ -6,6 +6,7 @@
       "npmClientArgs": ["--no-package-lock"]
     },
     "publish": {
+      "ignoreChanges": ["**/*.md", "**/package.json", "**/package-lock.json"],
       "conventionalCommits": true,
       "allowBranch": ["main", "releases"]
     },
