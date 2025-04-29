@@ -64,6 +64,16 @@ jobs:
             Please approve or deny the release of a new release.
             [View the workflow output](https://github.com/uq-its-ss/design-system-test/actions/runs/${{ github.run_number }}) to confirm the version is as expected.
 
+            Please approve or deny the release of a new release.
+            [View the workflow output](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            to confirm the version is as expected.
+            Run Number: ${{ github.run_number }}
+            Run ID: ${{ github.run_id }}
+
+            Please approve or deny the deployment to
+            ${{ env.github_environment }}
+            from ${{ github.ref_type }} ${{ github.ref_name }}
+
           exclude-workflow-initiator-as-approver: false
 
       - name: "✨ Publish stable"
@@ -98,6 +108,7 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
+          # Publish alpha: bumps version, creates tag vx.y.z-alpha.N, commits, pushes commit/tag, publishes to npm
           npx lerna publish --conventional-commits --conventional-prerelease --dist-tag alpha --yes
           echo "### GIT LOG TRIGGERED BY PUSH ###"
           git --no-pager log ${{ github.event.before }}..${{ github.sha }} -n 5

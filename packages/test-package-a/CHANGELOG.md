@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0-alpha.0](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-a@1.4.0...@uqds/test-pacakge-a@1.5.0-alpha.0) (2025-04-29)
+
+
+### Features
+
+* minor comment update ([70bdf7a](https://github.com/uq-its-ss/design-system-test/commit/70bdf7ae0bb20db983b2a1d7082fa5dba3aebaa0))
+
+
+
+
+
 # [1.4.0](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-a@1.4.0-alpha.0...@uqds/test-pacakge-a@1.4.0) (2025-04-29)
 
 **Note:** Version bump only for package @uqds/test-pacakge-a
