@@ -11,6 +11,7 @@
       "allowBranch": ["main", "releases"]
     },
     "version": {
+      "ignoreChanges": ["**/*.md", "**/package.json", "**/package-lock.json"],
       "conventionalCommits": true,
       "allowBranch": ["main", "releases", "Adding-new-packages"],
       "message": "chore(release):Publish"
