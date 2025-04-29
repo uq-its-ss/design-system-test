@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0-alpha.1](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-a@1.3.0-alpha.0...@uqds/test-pacakge-a@1.3.0-alpha.1) (2025-04-29)
+
+
+### Features
+
+* adding a new workflow test ([c29807b](https://github.com/uq-its-ss/design-system-test/commit/c29807bbecb6a90f378a0b4f6447b3cbe51e7266))
+
+
+
+
+
+# [1.3.0-alpha.0](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-a@1.2.1...@uqds/test-pacakge-a@1.3.0-alpha.0) (2025-04-28)
+
+
+### Features
+
+* adding a new minor ([199879b](https://github.com/uq-its-ss/design-system-test/commit/199879bc7415564c7e786f321c273596ac62e1cf))
+
+
+
+
+
 ## [1.2.1](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-a@1.2.1-alpha.0...@uqds/test-pacakge-a@1.2.1) (2025-04-28)
 
 **Note:** Version bump only for package @uqds/test-pacakge-a
