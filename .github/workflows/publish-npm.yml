@@ -98,6 +98,7 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
+          # Publish alpha: bumps version, creates tag vx.y.z-alpha.N, commits, pushes commit/tag, publishes to npm
           npx lerna publish --conventional-commits --conventional-prerelease --dist-tag alpha --yes
           echo "### GIT LOG TRIGGERED BY PUSH ###"
           git --no-pager log ${{ github.event.before }}..${{ github.sha }} -n 5
