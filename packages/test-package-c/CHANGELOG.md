@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3-alpha.0](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-c@2.0.2...@uqds/test-pacakge-c@2.0.3-alpha.0) (2025-04-29)
+
+
+### Bug Fixes
+
+* patch change to c ([ba34e04](https://github.com/uq-its-ss/design-system-test/commit/ba34e044a4baabd9e6ef85e1fdc8ecc4b8881136))
+
+
+
+
+
 ## [2.0.2](https://github.com/uq-its-ss/design-system-test/compare/@uqds/test-pacakge-c@2.0.2-alpha.0...@uqds/test-pacakge-c@2.0.2) (2025-04-29)
 
 **Note:** Version bump only for package @uqds/test-pacakge-c
