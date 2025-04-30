@@ -62,17 +62,8 @@ jobs:
           issue-title: 'Approve new release ✅'
           issue-body: >
             Please approve or deny the release of a new release.
-            [View the workflow output](https://github.com/uq-its-ss/design-system-test/actions/runs/${{ github.run_number }}) to confirm the version is as expected.
-
-            Please approve or deny the release of a new release.
             [View the workflow output](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
             to confirm the version is as expected.
-            Run Number: ${{ github.run_number }}
-            Run ID: ${{ github.run_id }}
-
-            Please approve or deny the deployment to
-            ${{ env.github_environment }}
-            from ${{ github.ref_type }} ${{ github.ref_name }}
 
           exclude-workflow-initiator-as-approver: false
 
